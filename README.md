@@ -12,6 +12,6 @@ Many APIs provide an API key, which is the mechanism by which requests are made 
 
 ### **⚠️⚠️⚠️Please do not commit your API key nor secret to your repository⚠️⚠️⚠️**
 
-This prevents other users from using your key and making you responsible for requests made with that key.
+This prevents other users from using your key and making you responsible for requests made with that key. If you accidentally commit your key, that's ok. Invalidate your key on Flickr and ask for help.
 
 In a production-ready application, you could have your server make the requests on the users' behalf on the server side to prevent the users from ever having access to it. However, this has cost implications as the server is making the requests. Ultimately, you should check with the vendor's documentation to understand how the API key is meant to be used.
